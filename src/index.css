@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  overflow: scroll;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+
+.film-list {
+  position: relative;
+  flex: 1 0 33.333333%;
+  height: 100%;
+  padding: 3.6em 0 0;
+  background-color: #f0f0f0;
+}
+
+.film-list > .section-title {
+  width: 33.333333%;
+  left: 0;
+}
+
+.rowlist{
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  width: 40%;
+  margin-left: 2em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+.film-row:hover {
+  cursor: pointer;
+}
+
+.film-row-fave {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 0 0.2em;
+  background-color: transparent;
+  transition: all 0.1s linear;
+}
+
+.film-poster {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.film-list-filters {
+  position: fixed;
+  top: 1.6em;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  width: 33.333333%;
+}
+
+.film-list-filter {
+  flex-basis: 50%;
+  flex-grow: 1;
+  background-color: #ccc;
+  color: white;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 0.5em;
+  margin: 0 0 0.1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.film-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  color: white;
+  font-size: 4em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.5));
+  padding: 0.25em 1.5rem;
+}
+
+.film-tagline {
+  line-height: 1.2;
+}
+
+.film-detail-poster {
+  float: right;
+  width: 20%;
+  margin-left: 2em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+}
+
+.m{
+  width: 900px;
+  height: 400px;
+}
+
+.back{
+padding-bottom: 150px;
+background-image:url("https://images.unsplash.com/photo-1521967906867-14ec9d64bee8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+opacity: 0.5;
+padding-top: 20px;
+margin-top: 50px;
+}
+
+.back2{
+padding:30px;
+margin-top: 50px;
+background-color: black 
+}
+
+.back3{
+  padding-bottom: 50px;
+  margin-top: 50px;
+  background-image:url("https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  opacity: 0.5;
+  
+}
+
+.back4{
+  margin-top: 40px;
+  padding: 5px;
+  background-color: black;
+  
+  }
+
+  .pfooter{
+    color: white;
+    text-align: center;
+  }
+.test{
+color: white;
+font-size: 50px;
+padding-top: 50px;
+text-align: center;
+}
+
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+.iccon{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-left: 160px;
+}
+
+.caption {
+color: white;
+margin-left: 230px;
+font-size: 30px
+}
+
+.tex{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+/*.iccon{
+  float: left;
+   width: 200px;
+   height: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto 
+
+} */
+
+.first{
+  float: left;
+  display: block;
+}
+
+h3{
+  color: white;
+  font-size: 1000px;
+  margin-left: 500px;
+  font-family: 'Lexend Tera';
+}
+
+.box1{
+  width: 10000px;
+  height: 400px;
+  padding:40px;
+  align-items: center;
+  margin-top: 100px;
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.5));
+}
+
+.TopPage{
+background-image: url("https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+width: 10000px;
+height: 800px;
+}
+
+.theList{
+  color: white;
+  font-size: 50px;
+  margin-left: 500px;
+}
+
+.form1{
+  margin-left: 500px;
+}
+
+.tit{
+  color: darkred;
+  margin-left: 570px;
+  padding: 40px;
+  font-size: 50px;
+}
+
+h1{
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+h4{
+  margin-left: 50px;
+  margin-top: 300px;
+  padding-top: 50px;
+}
+
